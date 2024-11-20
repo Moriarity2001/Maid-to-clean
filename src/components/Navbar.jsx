@@ -13,7 +13,7 @@ const NavbarComponent = () => {
           className="navbar-logo" 
           style={{ height: '40px', marginRight: '10px' }} // Adjust the height and margin
         />
-        Maid To Clean
+        Phantom Cleaning
       </Navbar.Brand>
 
       {/* Navigation Links Section */}

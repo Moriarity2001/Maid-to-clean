@@ -1,19 +1,11 @@
 import React from "react";
 
 const HeroSection = () => {
-  const heroStyle = {
-    backgroundImage: "url('https://www.maidtoclean.com.au/wp-content/uploads/2022/11/MAID-TO-CLEAN_051122_096-1500x550.jpg')",
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-    color: "white",
-    padding: "100px 20px",
-    textAlign: "center",
-  };
-
   return (
-    <section style={heroStyle}>
+    <section className="hero-section text-white text-center">
       <h1>Melbourne's Most In Demand Cleaning Company</h1>
-      <p>Professional cleaning services tailored to your needs!</p>
+      <p>Maid to Clean prides itself in being Melbourne’s best rated and most in demand cleaning company. We specialize in cleaning with exceptionally high attention to detail and 
+        unrivalled reliability. Book early to reserve yourself a service with the best in Melbourne!</p>
       <div className="mt-3">
         <button className="btn btn-primary mx-2">See Our Pricing</button>
         <button className="btn btn-success mx-2">Book My Clean</button>
