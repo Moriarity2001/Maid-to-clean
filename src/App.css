@@ -36,3 +36,101 @@
     transform: rotate(360deg);
   }
 }
+
+.hero-section {
+  background-image: url('https://www.maidtoclean.com.au/wp-content/uploads/2022/11/MAID-TO-CLEAN_051122_096-1500x550.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 20px;
+}
+
+/* Navbar */
+/* App.css */
+
+/* Navbar styles */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 10px 20px;
+}
+
+.navbar-container .navbar-brand {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: white;
+}
+
+.navbar-container .nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-container .nav-links .nav-item {
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-left: 20px;
+  position: relative;
+  transition: all 0.3s ease; /* Add smooth transition */
+}
+
+.navbar-container .nav-links .nav-item:hover {
+  color: #f39c12; /* Gold color on hover */
+  transform: scale(1.1); /* Slight scaling effect */
+}
+
+.navbar-container .nav-links .nav-item:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #f39c12;
+  bottom: -5px;
+  left: 0;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.navbar-container .nav-links .nav-item:hover:after {
+  transform: scaleX(1); /* Underline animation effect */
+}
+
+.navbar-container .nav-links .dropdown {
+  margin-left: 20px;
+}
+
+.navbar-container .btn-book-now {
+  background-color: #28a745; /* Green button color */
+  border-color: #28a745;
+  color: white;
+  font-weight: bold;
+  padding: 8px 15px;
+  margin-left: 20px;
+  transition: all 0.3s ease; /* Button hover animation */
+}
+
+.navbar-container .btn-book-now:hover {
+  background-color: #218838; /* Darken green on hover */
+  border-color: #218838;
+  transform: scale(1.05); /* Button scaling effect */
+}
+
+/* "Jobs" button styles */
+.navbar-container .btn-jobs {
+  background-color: #007bff; /* Blue button color for Jobs */
+  border-color: #007bff;
+  color: white;
+  font-weight: bold;
+  padding: 8px 15px;
+  margin-left: 20px;
+  transition: all 0.3s ease;
+}
+
+.navbar-container .btn-jobs:hover {
+  background-color: #0056b3; /* Dark blue on hover */
+  border-color: #0056b3;
+  transform: scale(1.05); /* Scaling effect on hover */
+}
