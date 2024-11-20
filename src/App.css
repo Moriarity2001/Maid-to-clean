@@ -134,3 +134,479 @@
   border-color: #0056b3;
   transform: scale(1.05); /* Scaling effect on hover */
 }
+
+/* Promosection css*/
+.promo-section {
+  background-color: #f9f9f9;
+  padding: 50px 20px;
+}
+
+.promo-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.text-content {
+  max-width: 50%;
+}
+
+.promo-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.promo-description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.promo-buttons .btn {
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.promo-image {
+  max-width: 40%;
+}
+
+.promo-image img {
+  width: 100%;
+  height: auto;
+}
+/* Award Section css*/
+/* Awards Section Styling */
+.awards-section {
+  background-color: #f0f8ff; /* Light blue background */
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.awards-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+/* Image Styling */
+.awards-image img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Text Content Styling */
+.awards-text {
+  max-width: 600px;
+  text-align: left;
+}
+
+.awards-text h2 {
+  font-size: 2rem;
+  color: #003366; /* Darker blue */
+  margin-bottom: 1rem;
+}
+
+.awards-text p {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+/* Button Styling */
+.read-more-button {
+  display: inline-block;
+  background-color: #ffffff; /* White with subtle background */
+  color: #008cba; /* Blue text */
+  border: 2px solid #008cba; /* Blue border */
+  border-radius: 20px; /* Rounded corners */
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.read-more-button:hover {
+  background-color: #008cba;
+  color: #ffffff;
+}
+
+/* Section divider for color difference */
+.awards-section + .next-section {
+  background-color: #e6f2ff; /* Slightly different blue for the next section */
+  padding: 2rem 0;
+  text-align: center;
+}
+/* Feature Page section */
+/* Section Styling */
+.featured-section {
+  padding: 3rem 1rem;
+  background-color: #D1D5DB;
+}
+
+/* Main Content Styling */
+.featured-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.text-container {
+  max-width: 600px;
+  text-align: left;
+}
+
+.text-container h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.text-container p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.text-container .congratulations {
+  font-weight: bold;
+  color: #008cba;
+}
+
+/* Video Container */
+.video-container iframe {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Logos Section */
+.logos-section {
+  text-align: center;
+}
+
+.logos-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: #003366;
+}
+
+.logos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.logos-container img {
+  max-height: 80px;
+  object-fit: contain;
+}
+
+.video-container iframe {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/*Footer */
+/* General Footer Styling */
+.footer {
+  background-color: #1c1c1c;
+  background-image: url('https://www.maidtoclean.com.au/wp-content/themes/maidtoclean/dist/images/maid-lg.png'); /* Background pattern */
+  background-size: contain;
+  background-repeat: repeat;
+  color: #f5f5f5;
+  padding: 50px 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+/* Section Styling */
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+  margin: 10px;
+}
+
+.left-section {
+  text-align: left;
+}
+
+.middle-section,
+.right-section {
+  text-align: center;
+}
+
+.right-section {
+  position: relative;
+}
+
+.footer-logo {
+  width: 120px;
+  margin-bottom: 15px;
+}
+
+.company-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-text {
+  margin: 5px 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* List Styling */
+.footer-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #ffffff;
+  border-bottom: 2px solid #28a745;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-list-item {
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #d1d1d1;
+  transition: color 0.3s;
+}
+
+.footer-list-item:hover {
+  color: #28a745;
+}
+
+/* Awards Image */
+.awards-logo {
+  margin-top: 20px;
+  width: 160px;
+  border: 2px solid #28a745;
+  border-radius: 5px;
+  padding: 5px;
+  background: #ffffff;
+}
+
+/* Bottom Section */
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.social-icons {
+  margin-bottom: 15px;
+}
+
+.social-icon {
+  font-size: 20px;
+  margin: 0 15px;
+  color: #d1d1d1;
+  transition: color 0.3s;
+}
+
+.social-icon:hover {
+  color: #28a745;
+}
+
+/* Buttons */
+.footer-buttons {
+  margin: 20px 0;
+}
+
+.btn {
+  padding: 12px 25px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 25px;
+  transition: all 0.3s;
+}
+
+.book-now {
+  background-color: #28a745;
+  color: white;
+  margin-right: 10px;
+}
+
+.book-now:hover {
+  background-color: #1e7e34;
+}
+
+.login {
+  background-color: white;
+  color: black;
+}
+
+.login:hover {
+  background-color: #d1d1d1;
+}
+
+/* Terms & Conditions */
+.footer-terms {
+  margin: 10px 0;
+  font-size: 14px;
+  color: #d1d1d1;
+}
+/*Cleaning services */
+/* General Styles */
+.cleaning-services {
+  padding: 50px 20px;
+  background-color: #ffffff;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Section Title */
+.section-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #28a745;
+  display: inline-block;
+  padding-bottom: 5px;
+  color: #000;
+}
+
+/* Services Grid */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.service-card {
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.service-card:hover {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.service-description {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.learn-more-btn {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.learn-more-btn:hover {
+  background-color: #1e7e34;
+}
+
+/* About Section */
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.about-image {
+  max-width: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.about-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.about-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #000;
+}
+
+.about-text {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.about-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.about-btn {
+  background-color: #000;
+  color: #fff;
+}
+
+.about-btn:hover {
+  background-color: #555;
+}
+
+.book-btn {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.book-btn:hover {
+  background-color: #1e7e34;
+}

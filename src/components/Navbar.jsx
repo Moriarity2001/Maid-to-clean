@@ -9,7 +9,7 @@ const NavbarComponent = () => {
       <Navbar.Brand href="#" className="navbar-brand">
       <img 
           src="https://i.pinimg.com/736x/c6/6b/11/c66b11247285aefa99a8ea25554072ed.jpg" 
-          alt="Maid To Clean Logo" 
+          alt="Phantom Clean Logo" 
           className="navbar-logo" 
           style={{ height: '40px', marginRight: '10px' }} // Adjust the height and margin
         />
