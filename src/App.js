@@ -1,27 +1,25 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import HeroSection from "./components/HeroSection";
-import PromoSection from "./components/PromoSection";
-import AwardsSection from "./components/AwardsSection";
-import Services from "./components/Services";
-import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
-import FeaturedPage from "./components/FeaturedPage";
-import CleaningServices from "./components/CleaningServices";
-import './App.css'
+import Home from "./pages/Home"; // New Home component
+import OneOffCleaning from "./pages/OneOffCleaning.js"; // New page for One-off Cleaning
+import './App.css';
+
 const App = () => {
   return (
-    <div className="App">
-      <Navbar  />
-      <HeroSection />
-      <PromoSection />
-      <AwardsSection />
-      <FeaturedPage />
-      <CleaningServices />
-      <Services />
-      <Testimonials />
-      <Footer />
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Routes>
+          {/* Define routes */}
+          <Route path="/" element={<Home />} />
+          <Route path="/services/one-off-cleaning" element={<OneOffCleaning />} />
+          {/* Add more routes for other services as needed */}
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 };
 

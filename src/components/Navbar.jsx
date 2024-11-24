@@ -1,5 +1,6 @@
 import React from "react";
 import { Navbar, Nav, NavDropdown, Button } from "react-bootstrap";
+import { Link } from "react-router-dom"; // Import Link
 import '../App.css'; // Make sure you import the App.css file for styles
 
 const NavbarComponent = () => {
@@ -25,7 +26,8 @@ const NavbarComponent = () => {
 
         {/* "Services" Dropdown */}
         <NavDropdown title="Services" id="services-dropdown" className="nav-item">
-          <NavDropdown.Item href="#">One-Off Cleaning</NavDropdown.Item>
+        <NavDropdown.Item as={Link} to="/services/one-off-cleaning">
+        One-Off Cleaning </NavDropdown.Item>
           <NavDropdown.Item href="#">Regular Cleaning</NavDropdown.Item>
           <NavDropdown.Item href="#">Office Cleaning</NavDropdown.Item>
         </NavDropdown>
