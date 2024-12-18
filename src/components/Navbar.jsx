@@ -19,10 +19,7 @@ const NavbarComponent = () => {
 
       {/* Navigation Links Section */}
       <Nav className="nav-links">
-        {/* "Who We Are" Link */}
-        <Nav.Link href="#who-we-are" className="nav-item">
-          Who We Are
-        </Nav.Link>
+       
 
         {/* "Services" Dropdown */}
         <NavDropdown title="Services" id="services-dropdown" className="nav-item">
@@ -37,24 +34,10 @@ const NavbarComponent = () => {
           Where We Clean
         </Nav.Link>
 
-        {/* "Gift Cards" Link */}
-        <Nav.Link href="#gift-cards" className="nav-item">
-          Gift Cards
-        </Nav.Link>
+      
 
-        {/* "Jobs" Button */}
-        <NavDropdown title="Jobs" id="services-dropdown" className="nav-item">
-          <NavDropdown.Item href="#">One-Off Cleaning</NavDropdown.Item>
-          <NavDropdown.Item href="#">Regular Cleaning</NavDropdown.Item>
-          <NavDropdown.Item href="#">Office Cleaning</NavDropdown.Item>
-        </NavDropdown>
+       
 
-        {/* "Help" Dropdown */}
-        <NavDropdown title="Help" id="help-dropdown" className="nav-item">
-          <NavDropdown.Item href="#">FAQ</NavDropdown.Item>
-          <NavDropdown.Item href="#">Contact Us</NavDropdown.Item>
-          <NavDropdown.Item href="#">Support</NavDropdown.Item>
-        </NavDropdown>
       </Nav>
 
       {/* "Book Now" Button */}
