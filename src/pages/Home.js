@@ -11,12 +11,6 @@ const Home = () => {
   return (
     <div>
       <HeroSection />
-      <PromoSection />
-      <AwardsSection />
-      <FeaturedPage />
-      <CleaningServices />
-      <Services />
-      <Testimonials />
     </div>
   );
 };

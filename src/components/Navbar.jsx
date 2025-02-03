@@ -10,7 +10,7 @@ const NavbarComponent = () => {
         {/* Left Section: Logo and Brand */}
         <Navbar.Brand href="#" className="navbar-brand">
           <img
-            src="https://i.imghippo.com/files/IHl6547KxA.png"
+            src="/Homepage.png"
             alt="Phantom Clean Logo"
             className="navbar-logo"
           />
