@@ -43,7 +43,7 @@ const NavbarComponent = () => {
         {/* Left: Logo & Title */}
         <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
           <img
-            src="/Homepage.png"
+            src="/Homepagelogo.png"
             alt="Phantom Clean Logo"
             style={{ height: "35px" }}
           />
@@ -123,7 +123,7 @@ const NavbarComponent = () => {
           }}
         >
           <img
-            src="/Homepage.png"
+            src="/Homepagelogo.png"
             alt="Phantom Clean Logo"
             style={{ height: "40px", marginRight: "10px" }}
           />
