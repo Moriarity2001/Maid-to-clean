@@ -45,7 +45,7 @@ const NavbarComponent = () => {
           <img
             src="/Homepagelogo.png"
             alt="Phantom Clean Logo"
-            style={{ height: "35px" }}
+            style={{ height: "55px" }}
           />
           <div style={{ color: "white", fontWeight: "bold", fontSize: "16px", lineHeight: "1.2" }}>
             <div>Phantom</div>
@@ -125,7 +125,7 @@ const NavbarComponent = () => {
           <img
             src="/Homepagelogo.png"
             alt="Phantom Clean Logo"
-            style={{ height: "40px", marginRight: "10px" }}
+            style={{ height: "55px", marginRight: "1px" }}
           />
           <div style={{ lineHeight: "1", display: "flex", flexDirection: "column" }}>
             <span style={{ marginBottom: "2px" }}>Phantom</span>
